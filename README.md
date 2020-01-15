@@ -9,7 +9,9 @@ does not have access to the database only to the home page. The nav bar also cha
 * C#
 * HTML
 * CSS
-* GitHub
+* Git Bash
+
+
 
 ## Problems
 * Over complexing the project
