@@ -1,0 +1,204 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="~/images/new.jpg" alt="ASP.NET" class="img-responsive" />
+
+        </div>
+        <div class="item">
+            <img src="~/images/img4.jpg" alt="Visual Studio" class="img-responsive" />
+   
+        </div>
+        <div class="item">
+            <img src="~/images/img5.jpg" alt="Microsoft Azure" class="img-responsive" />
+          
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<h2>Top Pickers</h2>
+
+<body>
+
+    <div class="parent">
+        <div class="div1">
+
+            <div class="course-container unlocked">
+                <div class="course-logo">
+                   <img src="~/images/imag1.jpg" /></a>
+                </div>
+                <div class="course-name">
+                    <a href="#">FIFA 20</a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="div2">
+            <div class="course-container unlocked">
+                <div class="course-logo">
+                    <img src="~/images/imag4.jpg" />
+                </div>
+                <div class="course-name">
+                    <a>W2K20</a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="div3">
+            <div class="course-container unlocked">
+                <div class="course-logo">
+                    <img src="~/images/imag3.jpg" />
+                </div>
+                <div class="course-name">
+                    <a>DBZ</a>
+                </div>
+     
+            </div>
+        </div>
+        <div class="div4">
+            <div class="course-container unlocked">
+                <div class="course-logo">
+                    <img src="~/images/imag6.jpg" />
+                </div>
+                <div class="course-name">
+                    <a>Mario</a>
+                </div>
+       
+            </div>
+        </div>
+        <div class="div5">
+            <div class="course-container unlocked">
+                <div class="course-logo">
+                    <img src="~/images/imag10.jpg" />
+                </div>
+                <div class="course-name">
+                    <a>CALL OF DUTY</a>
+                </div>
+            </div>
+        </div>
+        <div class="div6">
+            <div class="course-container unlocked">
+                <div class="course-logo">
+                    <img src="~/images/imga9.jpg" />
+                </div>
+                <div class="course-name">
+                    <a>Avengers</a>
+                </div>
+             
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<style>
+    body {
+
+         
+        background-color: #e5df45 !important;
+    }
+    
+
+    h2 {
+        text-align: center;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+
+    }
+
+    .div1 {
+        grid-area: 1 / 1 / 2 / 2;
+
+    }
+
+    .div2 {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .div3 {
+        grid-area: 1 / 3 / 2 / 4;
+    }
+
+    .div4 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .div5 {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .div6 {
+        grid-area: 2 / 3 / 3 / 4;
+    }
+
+    h2 {
+        color: #e33661;
+    }
+
+
+    .course-name {
+        background-color: #121212;
+        margin: 0 61px;
+        color: white;
+        border: none;
+    }
+
+        .course-name a {
+            color: white;
+        }
+
+    .progess-container {
+        font-size: 0.5em;
+        background-color: #1f1f1f;
+        color: white;
+        margin: 0 100px;
+    }
+
+    .course-container {
+        opacity: 65%;
+        padding: 25px;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+        .course-container .course-name a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .course-container.unlocked:hover {
+            opacity: 100%;
+            transform: scale(1.1);
+            cursor: pointer;
+            transition: 0.5s;
+            color: #e33661;
+        }
+
+        .course-container.unlocked {
+            opacity: 100%;
+        }
+</style>

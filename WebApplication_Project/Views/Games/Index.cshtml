@@ -1,0 +1,96 @@
+﻿@model IEnumerable<WebApplication_Project.Models.Games>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+<style>
+
+    body{
+        background-color: #e5df45 !important;
+    }
+    .container.body-content {
+        background-color: aquamarine !important;
+    }
+
+    .table-container {
+        background-color: #e5df45;
+        padding: 25px;
+        width: 70%;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    th {
+        text-align: center;
+    }
+
+    .table {
+        margin: auto;
+        background-color: white;
+    }
+</style>
+
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.genre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.age_limit)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.release_data)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.description)
+                </th>
+                <th>
+                    <a asp-action="Create" class="btn btn-outline-success" style="background-color:#e5df45 " ><i class="far fa-plus-square"></i> craeat</a>
+
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.genre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.age_limit)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.release_data)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.description)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.game_id"><i class="fa fa-marker fa-lg"></i></a> |
+                        <a asp-action="Details" asp-route-id="@item.game_id"><i class="fas fa-info"></i></a> |
+                        <a asp-action="Delete" asp-route-id="@item.game_id"><i class="fa fa-trash-alt fa-lg"></i></a>
+                    </td>
+                </tr>
+             }
+        </tbody>
+    </table>
+</div>
