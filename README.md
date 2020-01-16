@@ -14,7 +14,7 @@ does not have access to the database only to the home page. The nav bar also cha
 
 
 ## Problems
-* Over complexing the project
+* Over complicating my project
 * Autorization 
 * Styling
 
