@@ -163,7 +163,7 @@ using WebApplication_Project.Models;
             WriteLiteral("\r\n                </th>\r\n                <th>\r\n                    ");
             EndContext();
             BeginContext(1386, 135, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "02c53f3dbfdc499689c65cb221473f9d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ed7f2a4349ef444a8273ceba3249a06e", async() => {
                 BeginContext(1476, 41, true);
                 WriteLiteral("<i class=\"far fa-plus-square\"></i> craeat");
                 EndContext();
@@ -256,7 +256,7 @@ using WebApplication_Project.Models;
             WriteLiteral("\r\n                    </td>\r\n                    <td>\r\n                        ");
             EndContext();
             BeginContext(2469, 88, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8b599416a6ec4ae4bdd0face755aa8d5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8e2dcb01bf134c20b566b9ab0ae14533", async() => {
                 BeginContext(2519, 34, true);
                 WriteLiteral("<i class=\"fa fa-marker fa-lg\"></i>");
                 EndContext();
@@ -291,7 +291,7 @@ using WebApplication_Project.Models;
             WriteLiteral(" |\r\n                        ");
             EndContext();
             BeginContext(2585, 84, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2cb31ab5117c4e9190a1e7807ab0ee02", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3cf5094cabe544859a3f5c8168370471", async() => {
                 BeginContext(2638, 27, true);
                 WriteLiteral("<i class=\"fas fa-info\"></i>");
                 EndContext();
@@ -326,7 +326,7 @@ using WebApplication_Project.Models;
             WriteLiteral(" |\r\n                        ");
             EndContext();
             BeginContext(2697, 93, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "16d5a25d0b194987b4c65c263feb8499", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "56017b7cb1854a8e998c35a6303d9395", async() => {
                 BeginContext(2749, 37, true);
                 WriteLiteral("<i class=\"fa fa-trash-alt fa-lg\"></i>");
                 EndContext();
