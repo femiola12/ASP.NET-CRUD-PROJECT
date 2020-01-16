@@ -23,7 +23,8 @@ This is a Game Store CRUD application project made with ASP.NET CORE. The reason
 * Styling
 * Links 
 
-![Front Page](https://github.com/femiola12/ASP.NET-CRUD-PROJECT/blob/master/WebApplication_Project/wwwroot/images/Picture1.png)
+![Front Page](https://github.com/femiola12/ASP.NET-CRUD-PROJECT/blob/master/WebApplication_Project/wwwroot/images/Picture2.png)
+
 
 
 
